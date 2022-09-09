@@ -10,4 +10,7 @@ Based on subject selected for quiz, questions will be given :
 
 ![image](https://user-images.githubusercontent.com/107784718/189266383-1cd4f28d-b393-42eb-b549-281e4370f018.png)
 
+When it is final question, the "Next" button will change in to "Submit Answer", Bby clicking it user will be able to submit answers:
+
+![image](https://user-images.githubusercontent.com/107784718/189266537-25c96084-fdcc-4a6b-ae26-f0cb5edd48fe.png)
 
