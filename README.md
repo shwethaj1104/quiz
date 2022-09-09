@@ -1,27 +1,27 @@
-# QuizApp
+# quiz
+# Quiz Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
+Developed on Angular latest version 13
 
-## Development server
+User will be asked to login before starting quiz, and user can select either one of dropdowns as a subject for quiz :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![image](https://user-images.githubusercontent.com/107784718/189266270-fb5b63ce-5e74-4050-a93f-406ec110a0af.png)
 
-## Code scaffolding
+Based on subject selected for quiz, questions will be given : 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![image](https://user-images.githubusercontent.com/107784718/189266383-1cd4f28d-b393-42eb-b549-281e4370f018.png)
 
-## Build
+When it is final question, the "Next" button will change in to "Submit Answer", Bby clicking it user will be able to submit answers:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![image](https://user-images.githubusercontent.com/107784718/189266537-25c96084-fdcc-4a6b-ae26-f0cb5edd48fe.png)
 
-## Running unit tests
+Based on user's performance score will be calculated and shown in the pie chart, user will be given options with retry quiz and start over with other subject quiz : 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![image](https://user-images.githubusercontent.com/107784718/189266673-876f997b-9e96-49b9-9de7-d822278d6585.png)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
