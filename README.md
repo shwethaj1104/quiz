@@ -1,7 +1,9 @@
 # quiz
 # Quiz Application
 
-Developed on Angular latest version 13
+Developed on Angular latest version 13.
+
+Checkout application at https://quiz-blue-six.vercel.app
 
 User will be asked to login before starting quiz, and user can select either one of dropdowns as a subject for quiz :
 
