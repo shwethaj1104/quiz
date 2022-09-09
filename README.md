@@ -17,7 +17,7 @@ When it is final question, the "Next" button will change in to "Submit Answer", 
 
 Based on user's performance score will be calculated and shown in the pie chart, user will be given options with retry quiz and start over with other subject quiz : 
 
-![image](https://user-images.githubusercontent.com/107784718/189266673-876f997b-9e96-49b9-9de7-d822278d6585.png)
+![image](https://user-images.githubusercontent.com/107784718/189269876-138680da-3e37-425d-8383-b0fd8a1d1e39.png)
 
 
 
