@@ -46,6 +46,7 @@ export class AppComponent implements OnInit {
     userName: new FormControl('', Validators.required),
     selectQuiz: new FormControl('', Validators.required)
   });
+//startquiz and pick questions from selected subject
   startQuiz() {
     this.form_data = this.userDetails.value;
     this.userDetailsStep = false;
@@ -68,6 +69,7 @@ export class AppComponent implements OnInit {
           }
     }
   }
+//set Questions to quiz board
   setQuestion(i:any) {
     this.singleQuestion = this.questions[i];
     if(this.questions.length - 1 == this.currentIndex) {
@@ -79,9 +81,11 @@ export class AppComponent implements OnInit {
       pressedAnswer: null
     });
   }
+//shuffle questions
   sortingQuestions(list:any) {
     return list.sort(() => Math.random());
   }
+//reset the Quiz page
   resetQuiz() {
     this.quizResultStep = false;
     this.userDetailsStep = true;
@@ -92,6 +96,7 @@ export class AppComponent implements OnInit {
     this.lastScoreGrade = '';
     this.questions = [];
   }
+//press on answer option
   answerPressed(e:any,answer:any, answerIndex:any) {
     const btns = this.el.nativeElement.querySelectorAll('.btn-answer');
     this.answerBtnPress = true;
@@ -99,6 +104,7 @@ export class AppComponent implements OnInit {
     this.answersList[this.currentIndex].isCorrect = answer.isAnswer;
     this.answersList[this.currentIndex].pressedAnswer = answerIndex;
   }
+//press on Next button
   nextQuestion() {
     this.answerBtnPress = false;
     this.currentIndex++;
@@ -111,6 +117,7 @@ export class AppComponent implements OnInit {
       this.calcScore();
     }
   }
+//canculate final score
   calcScore() {
     this.showChart=true
     let correctAnswers = 0;
@@ -129,6 +136,7 @@ export class AppComponent implements OnInit {
     }
     this.chartSeries = [this.lastScore,100-this.lastScore]
   }
+  //retry the same quiz
   retry() {
     this.quizResultStep = false;
     this.quizStep = true;

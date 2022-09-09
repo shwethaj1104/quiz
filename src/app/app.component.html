@@ -21,6 +21,7 @@
     </div>
   </div>
 </div>
+
 <div class="quiz-wrapper" *ngIf="quizStep">
   <div class="quiz-inner">
     <h3 class="username">Hi, <span>{{username}}</span></h3>
@@ -41,6 +42,7 @@
     <button class="btn next-btn" (click)="nextQuestion()"[disabled]="!answerBtnPress">Next</button>
   </div>
 </div>
+
 <div class="result-chart">
   <div class="quiz-result" *ngIf="quizResultStep">
     <div class="quiz-result-inner">
