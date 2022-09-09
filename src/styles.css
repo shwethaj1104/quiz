@@ -101,14 +101,10 @@ body {
     color: #0092fb;
 }
 .quiz-result h3 {
-    margin: 20px 0;
     font-size: 1.5em;
 }
 .quiz-result h3 > span {
     font-size: 1.5em;
-}
-.quiz-result .btn + .btn {
-    margin-left: 20px;
 }
 .btn-new-quiz {
     background: #00e69d;
@@ -125,12 +121,18 @@ body {
     font-weight: 700;
 }
 .chart{
-    width: 500px;
-    height: 500px;
-    margin-top: -13rem;
+    width: 40%;
+    height: 40%;
+    margin-top: 1rem;
 }
 .result-chart{
     display: flex;
     margin-top: 3rem;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
 }

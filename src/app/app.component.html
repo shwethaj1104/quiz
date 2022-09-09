@@ -47,9 +47,7 @@
   <div class="quiz-result" *ngIf="quizResultStep">
     <div class="quiz-result-inner">
       <h2>your score is <span>{{lastScoreGrade}}</span></h2>
-      <h3>Result : <span>{{lastScore}}/100 (%)</span></h3>
-      <button class="btn retry-btn" (click)="retry()">Retry</button>
-      <button class="btn btn-new-quiz" (click)="resetQuiz()">New Quiz</button>
+      <!-- <h3>Result : <span>{{lastScore}}/100 (%)</span></h3> -->
     </div>
   </div>
   <div *ngIf="showChart" class="chart">
@@ -58,5 +56,9 @@
     [chart]="chartDetails"
     [labels]="chartLabels"
     ></apx-chart>
+  </div>
+  <div class="buttons">
+    <button class="btn retry-btn" (click)="retry()">Retry</button>
+    <button class="btn btn-new-quiz" (click)="resetQuiz()">New Quiz</button>
   </div>
 </div>
