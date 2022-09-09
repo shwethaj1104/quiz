@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background: #f1f0ff;
+    user-select: none;
+}
+.user-details,
+.quiz-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    flex-direction: column;
+}
+.quiz-result {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+.user-details > h1 {
+    margin-bottom: 2rem;
+}
+.card {
+    width: 500px;
+    background: #fff;
+    border-radius: 0.7rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-body {
+    padding: 2rem;
+}
+.form-input {
+    margin-bottom: 1rem;
+}
+.form-input label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+}
+.form-control {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 0.7rem;
+    padding: 0.7rem;
+    font-size: 15px;
+}
+.text-center {
+    text-align: center;
+}
+.btn {
+    border: none;
+    display: inline-block;
+    background: #0092fb;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    font-size: 15px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.note {
+    font-size: 15px;
+    margin-bottom: 1rem;
+    color: #a90c0c9c;
+}
+.hide {
+    display: none;
+}
+.quiz-wrapper h3 {
+    margin-bottom: 0.6rem;
+}
+.quiz-wrapper .question {
+    margin-bottom: 2rem;
+}
+.quiz-wrapper .answers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+.quiz-wrapper .next-btn {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    background: #0092fb;
+    border-color: none;
+    float: right;
+}
+.quiz-result {
+    text-align: center;
+}
+.quiz-result h2 {
+    text-transform: capitalize;
+}
+.quiz-result h2 > span {
+    font-size: 1.5em;
+    color: #0092fb;
+}
+.quiz-result h3 {
+    margin: 20px 0;
+    font-size: 1.5em;
+}
+.quiz-result h3 > span {
+    font-size: 1.5em;
+}
+.quiz-result .btn + .btn {
+    margin-left: 20px;
+}
+.btn-new-quiz {
+    background: #00e69d;
+    border-color: none;
+}
+.btn:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+.btn.selected-answer {
+    background-color: #0095fb63;
+    border: none;
+    color: black;
+    font-weight: 700;
+}
+.chart{
+    width: 500px;
+    height: 500px;
+    margin-top: -13rem;
+}
+.result-chart{
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+}
