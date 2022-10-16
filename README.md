@@ -1,4 +1,4 @@
-# Quiz App
+# Quiz Application
 
 Developed on Angular version 13
 
