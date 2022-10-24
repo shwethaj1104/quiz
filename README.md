@@ -1,6 +1,6 @@
 # Quiz Application
 
-Developed on Angular version 13
+AppDeveloped on Angular version 13
 
 Checkout application at : https://quiz-blue-six.vercel.app
 
